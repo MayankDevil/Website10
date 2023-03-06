@@ -1,0 +1,63 @@
+/*
+*   Website 10 "information technology law"
+*   Desgined by MAYANK
+*   css : css/responsive
+*/
+@import "style.css";
+
+@media (max-width: 1200px)
+{
+}
+
+@media (max-width: 992px)
+{
+    main
+    {
+        grid-template-rows: auto auto auto auto;
+    }
+    footer
+    {
+        max-height: 100vh;
+    }
+    .frame
+    {
+        grid-template-columns: 1fr;
+    }
+    /* DATA */
+    #data
+    {
+        width: 90%;
+    }
+    summary
+    {
+        display: grid;
+        grid-gap:1rem;
+    }
+    .social_link
+    {
+        height: auto;
+    }
+    .center
+    {
+        flex-flow: row wrap;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .img
+    {
+        width: 80%;
+        height: auto;
+    }
+    #right
+    {
+        padding: 1rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px)
+{
+}  

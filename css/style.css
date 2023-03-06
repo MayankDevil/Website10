@@ -1,0 +1,205 @@
+/*
+*   Website 10 "information technology law"
+*   Desgined by MAYANK
+*   css : css/style
+*/
+*
+{
+    user-select: none;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+    border: none;
+    box-sizing:border-box;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+    background:#192a56;
+    border-radius: 1rem;
+}
+::selection
+{
+    color: #000;
+    background: #ff7675;
+}
+/*
+    BODY CSS
+*/
+body
+{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+main
+{
+    width: 100%;
+    display:grid;
+    grid-template-rows: auto 90vh auto 100vh;
+}
+.center
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.frame
+{
+    width: 80%;
+    margin:3rem auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+/*
+    HEADER CSS
+*/
+header
+{
+    background:#d63031;
+}
+h1
+{
+    padding:2rem 3rem;
+    text-align: center;
+    font:bold 25px arial;
+}
+h3
+{
+    padding: 20px;
+    font:bold 18px arial;
+}
+p
+{
+    user-select: text;
+    padding:20px;
+    word-spacing:2px;
+    line-height: 1rem;
+    font: 1.1rem 'Calibri';
+    color:#192a56;
+}
+.img
+{
+    margin: 3rem auto;
+    padding: 10px;
+    height: 500px;
+    object-fit: cover;
+    border:5px inset #999;
+}
+.btn
+{
+    line-height: 100px;
+    padding:15px 30px;
+    color:#000;
+    background:#d63031;
+}
+.btn:hover
+{
+    color:#fff;
+    text-decoration: none;
+}
+/*
+FOOTER CSS
+*/
+.social_icon
+{
+    height: 20%;
+}
+.icon
+{
+    width: 50px;
+    height: auto;
+    border:3px solid transparent;
+}
+.icon:hover
+{
+    border-color:#d63031;
+    border-radius: 5px;
+}
+.social_link
+{
+    height: 70%;
+}
+.link
+{
+    display: grid;
+}
+h2
+{
+    color:#192a56;
+    padding:20px;
+    font:bold 25px calibri;
+    text-decoration: underline;
+}
+a
+{
+    padding: 25px;
+    font:18px calibri;
+    color:#1e272e;
+}
+a:hover
+{
+    color:#ff7675;
+    text-decoration: underline;
+}
+#right
+{
+    color:#000;
+    font:18px arial;
+    height: 10%;
+    background:#d63031;
+}
+/*
+    DATA CSS
+*/
+#search_bar
+{
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1rem;
+    font:18px 'arial';
+    color:#192a56;
+    border:2px solid #d63031;
+}
+#data
+{
+    width: 80%;
+    margin:auto;
+    min-height: 100vh;
+}
+details
+{
+    background:#fff;
+    border:1px solid #fff;
+}
+details p
+{
+    padding: 3rem 2rem;
+    line-height: 30px;
+}
+summary
+{
+    padding:1.5rem;
+    font:20px arial;
+    background: #d63031;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+summary div
+{
+    font:1rem arial;
+}
+summary div:first-child
+{
+    font-weight: 700;
+    color:#1e272e;
+}
+summary div:last-child
+{
+    color:#eee;
+}
